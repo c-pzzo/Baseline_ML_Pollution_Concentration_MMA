@@ -1,0 +1,15 @@
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_co.csv'  INTO TABLE sima_co FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_no.csv'  INTO TABLE sima_no FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_no2.csv'  INTO TABLE sima_no2 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_nox.csv'  INTO TABLE sima_nox FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_o3.csv'  INTO TABLE sima_o3 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_pm10.csv'  INTO TABLE sima_pm10 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_pm25.csv'  INTO TABLE sima_pm25 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_prs.csv'  INTO TABLE sima_prs FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_rainf.csv'  INTO TABLE sima_rainf FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_rh.csv'  INTO TABLE sima_rh FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_so2.csv'  INTO TABLE sima_so2 FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_sr.csv'  INTO TABLE sima_sr FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_tout.csv'  INTO TABLE sima_tout FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_wdr.csv'  INTO TABLE sima_wdr FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
+mysql -ucesar -pmysql92@ --local-infile HDL_Project -e "LOAD DATA LOCAL INFILE 'sima_wsr.csv'  INTO TABLE sima_wsr FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS"; 
