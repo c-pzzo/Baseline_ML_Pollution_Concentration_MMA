@@ -1,0 +1,15 @@
+sima_co.csv
+sima_no2.csv
+sima_no.csv
+sima_nox.csv
+sima_o3.csv
+sima_pm10.csv
+sima_pm25.csv
+sima_prs.csv
+sima_rainf.csv
+sima_rh.csv
+sima_so2.csv
+sima_sr.csv
+sima_tout.csv
+sima_wdr.csv
+sima_wsr.csv

@@ -1,3 +1,5 @@
+drop table if exists HDL_Project.`cat_stations`;
+
 create table HDL_Project.`cat_stations` (
 	station_code TINYTEXT
     , station_name TEXT 
@@ -17,6 +19,7 @@ VALUES("SE", "La Pastora")
 , ("SE3", "Cadereyta")
 , ("SUR", "Pueblo Serena")
 , ("NTE2", "Universidad");
+
 
 drop table if exists HDL_Project.`cat_particles`;
 
